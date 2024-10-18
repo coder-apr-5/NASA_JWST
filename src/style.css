@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: black;
+    color: white;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  /* Scrolling years section */
+  .scrolling-years {
+    width: 20%;
+    background-color: #111;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  .scrolling-years p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  /* Image and content section */
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 75%;
+  }
+  
+  .sun-image img {
+    max-width: 300px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .star-alignment h1 {
+    color: red;
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .star-alignment p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .star-alignment h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .star-alignment img {
+    width: 300px;
+  }
+  

@@ -1,0 +1,69 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+}
+body{
+    background-image:url(Dark-Matter-Astrophysics-Concept.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #000000;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.navbar-nav{
+    color:#ededed;
+}
+
+.navbar sticky-top navbar-light bg-light{
+    background-color:transparent;
+    color:transparent;
+}
+
+.navbar-brand{
+    font-size: 25px;
+    font-weight: 700;
+    color:#081b29;
+}
+
+.navbar-nav{
+    margin-left:900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0px 10px;
+    background-color: transparent;
+    color:transparent;
+}
+
+.navbar-nav li{
+    padding-left:5px;
+    padding-right: 5px;
+    background-color: transparent;
+    color:transparent;
+}
+
+.nav-link{
+    font-size: 20px;
+    font-weight: 200;
+    color:#ededed;
+}
+
+.container{
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right:0;
+    margin-bottom: 100px;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: #ededed;
+}
